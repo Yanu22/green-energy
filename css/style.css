@@ -1,0 +1,125 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set up the fonts */
+  body {
+    font-family: 'Your serif font', serif;
+    line-height: 1.5;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Your sans-serif font', sans-serif;
+    color: rgb(13, 179, 13);
+  }
+  
+  /* Navbar styles */
+  nav {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    justify-content: center; 
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li {
+    margin-right: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Masthead styles */
+  .masthead {
+    background-image: url('./img/green.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 2rem;
+  }
+  
+  .tagline {
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Main Content styles */
+  .content {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .content-buttons{
+    justify-content: center;
+    display: flex;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border: none;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links li {
+    margin-right: 1rem;
+  }
+  
+  .social-links a {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  /* Mobile View */
+  @media screen and (max-width: 30rem) {
+    body {
+      font-size: 0.75rem;
+    }
+  }
+  
+  /* Tablet and Desktop View */
+  @media screen and (min-width: 30.1rem) {
+    body {
+      font-size: 1rem;
+    }
+  }
+ 
